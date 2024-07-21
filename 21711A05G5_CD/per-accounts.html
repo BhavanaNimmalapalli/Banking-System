@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Account</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="per-accounts.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="logo.png" alt="Bank Logo">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="homepage.php"><b>Home</b></a></li>
+                <li><a href="about.html"><b>About Us</b></a></li>
+                <li><a href="contact.html"><b>Contact Us</b></a></li>
+                <li><a href="logout.php" ><b>Logout</b></a></li>
+        </ul>
+    </nav>
+</header>
+<section id="create-account">
+    <h2 align="center">Create a New Account</h2><br>
+    <div>
+        <form class="create-account-form" action="create_account.php" method="POST">
+            <div class="form-group">
+                <label for="account-holder">Account Holder Name:</label>
+                <input type="text" id="account-holder" name="accountHolder" placeholder="Enter account holder name">
+            </div>
+            <div class="form-group">
+                <label for="account-number">Account Number:</label>
+                <input type="text" id="account-number" name="accountNumber" placeholder="Enter account number">
+            </div>
+            <div class="form-group">
+                <label for="mobile-number">Mobile Number:</label>
+                <input type="text" id="mobile-number" name="mobileNumber" placeholder="Enter mobile number">
+            </div>
+            <div class="form-group">
+                <label for="bank-name">Bank Name:</label>
+                <input type="text" id="bank-name" name="bankName" placeholder="Enter bank name">
+            </div>
+            <button type="submit">Create Account</button>
+        </form>
+    </div>
+</section>
+<section>
+    
+</section>
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Banking Website. All rights reserved.</p>
+        <p>Contact us: (123) 456-7890 | info@bank.com</p>
+        <p>Follow us on:
+            <a href="#">Facebook</a> |
+            <a href="#">Twitter</a> |
+            <a href="#">LinkedIn</a>
+        </p>
+    </div>
+</footer>
+</body>
+</html>

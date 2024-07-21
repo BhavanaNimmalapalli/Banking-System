@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Banking Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="buttons.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Bank Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="homepage.php"><b>Home</b></a></li>
+                <li><a href="about.html"><b>About Us</b></a></li>
+                <li><a href="contact.html"><b>Contact Us</b></a></li>
+                <li><a href="logout.php" ><b>Logout</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="main-container">
+        <section id="actions-form">
+            <h2>Banking Services</h2>
+            <form action="transact.php" method="get">
+                <button type="submit" class="action-button">Make Transactions</button>
+            </form>
+            <form action="balance.php" method="get">
+                <button type="submit" class="action-button">Check Balance</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Banking Website. All rights reserved.</p>
+            <p>Contact us: (123) 456-7890 | info@bank.com</p>
+            <p>Follow us on:
+                <a href="#">Facebook</a> |
+                <a href="#">Twitter</a> |
+                <a href="#">LinkedIn</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
